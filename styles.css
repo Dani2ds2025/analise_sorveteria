@@ -1,0 +1,32 @@
+/* DEFININDO CORES PADRÃO */
+
+:root {
+    --Cor-primaria: #FF9AA2; /* Rosa suave */
+    --cor-secundaria: #B5EAD7; /* Verde menta */
+    --cor-destaque: #FFDAC1; /* Bege claro */
+    --cor-texto: #2F4858; /* Azul escuro */
+    --sombra: 0 4px 6px rgba(0, 0, 0, 0.1);
+};
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', 'sans-serif';
+    color: var(--cor-texto);
+    background: #f8f8f8;
+}
+
+.cabecalho {
+    background: linear-gradient(135 , var(--cor-primaria),
+    var(--cor-secundaria),);
+    padding: 2rem 1rem;
+    color: white;
+    text-align: center;
+    box-shadow: var(--sombra);
+    position: relative;
+    overflow: hidden;
+}

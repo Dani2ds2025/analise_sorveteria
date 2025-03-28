@@ -1,0 +1,49 @@
+ANÁLISE E PROJETO DE SISTEMAS: SISTEMA DE SORVETERIA ONLINE
+
+  1.  INTRODUÇÃO
+
+       Uma sorveteria deseja expandir suas vendas para o ambiente online, permitindo que os clientes façam pedidos de sorvetes pelo site e escolham entre retirada no local ou entrega. Atualmente, os pedidos são feitos apenas presencialmente, o que limita a quantidade de clientes atendidos e gera filas no estabelecimento.
+
+2.  DESCRIÇÃO DO PROBLEMA
+
+      A sorveteria precisa de um sistema web responsivo que permita aos clientes:
+
+ Visualizar o catálogo de sorvetes com imagens, preços e descrições.
+ Montar seu pedido escolhendo os sabores, tamanhos e adicionais.
+ Escolher retirada na loja ou entrega (com cálculo da taxa de entrega).
+ Fazer pagamento online via cartão de crédito ou pix.
+ Criar uma conta para salvar os pedidos anteriores e facilitar novas compras.
+
+Os administradores da sorveteria também precisam de funcionalidades como:
+
+Gerenciamento do catálogo de produtos(cadastrar, editar e excluir sorvetes).
+Controle de pedidos em tempo real, podendo atualizar status para “Em preparo”, “Pronto para retirada”, ou “A caminho”.
+Relatórios de vendas e estatísticas de produtos mais vendidos.
+
+
+3.IMPACTO DO PROBLEMA
+
+Sem um sistema online, a sorveteria enfrenta desafios como:
+
+Filas e demora no atendimento presencial.
+Falta de controle automatizado sobre os pedidos.
+Dificuldade em analisar vendas e preferenciais dos clientes.
+Perda de oportunidade de venda para concorrentes que já possuem sistemas online.
+
+4. REQUISITOS FUNCIONAIS
+
+CADASTRO E LOGIN DE CLIENTES.
+CATÁLOGO DE PRODUTOS DINAMICO COM IMAGENS E DESCRIÇÕES.
+CARRINHO DE COMPRAS COM OPÇÕES DE PERSONALIZAÇÃO DE SORVETES.
+PAGAMENTO ONLINE VIA CARTÃO DE CRÉDITO OU PIX.
+ESCOLHA ENTRE RETIRADA OU ENTRADA COM CÁLCULO DE TAXA.
+NOTIFICAÇÕES DE STATUS DO PEDIDO.
+ PAINEL ADMINISTRATIVO PARA GERENCIAR PEDIDOS E PRODUTOS.
+
+
+5.REQUISITOS NÃO FUNCIONAIS
+
+INTERFACE RESPONSIVA PARA DESKTOP E MOBILE.
+BANCO DE DADOS SEGURA PARA ARMAZENAR INFORMAÇÕES DE CLIENTES E PEDIDOS.
+TEMPO DE RESPOSTA RÁPIDO PARA NAVEGAÇÃO FLUÍDA.
+INTEGRAÇÃO COM APIs DE PAGAMENTO E MAPAS PARA CÁLCULO DE ENTREGA.
