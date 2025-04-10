@@ -1,20 +1,34 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="./css/styles.css">
-
-    <title>Análise sorveteria</title>
+    <title>Chat js</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>c:\Users\aluno\Desktop\documentação análise sorveteria.txt
+<body>
+    <div class="chat-container">
+        <div class="input-group">
+            <input type="text" id="username" placeholder="Seu Nome:">
+            <input type="text" id="message" placeholder="Sua mensagem:">
+            <button onclick="addMensage()">Enviar</button>
+  
+</div>
+<table class="chat-table">
+    <thead>
+        <tr>
+        <th> Usuário</th>
+         <th>Mensagem</th>
+         <th>Horario</th>
+        </tr>
+    </thead>
+    <tbody id="chat-body"></tbody>
+</table>
 
-    <header class="cabecalho">
-         <h1>Sorveteria gelado certo</h1>
-         <p>Seu sorvete perfeito entregue em casa!</p>
-    </header>
 
+    </div>
     
+    <script src="script.js"></script>
+
 </body>
 </html>
